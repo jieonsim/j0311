@@ -1,6 +1,6 @@
 package t1_interface2;
 
-public class RemteRun2 {
+public class RemoteRun2 {
 	public static void main(String[] args) {
 // 		부모인 Remote 타입으로 받아도 된다. 타입이 같으면 배열도 사용 가능하게 된다.
 //		Remote audio = new Audio();

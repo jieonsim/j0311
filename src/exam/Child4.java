@@ -1,6 +1,6 @@
 package exam;
 
-public class Child1 implements LunchMenu {
+public class Child4 implements LunchMenu {
 	int totalCost;
 
 	@Override
@@ -8,22 +8,24 @@ public class Child1 implements LunchMenu {
 		System.out.print("쌀밥 ");
 		System.out.print("불고기 ");
 		totalCost += RICE + BULGOGI;
+
 	}
 
 	@Override
-	public void tofu() {}
+	public void tofu() {
+		System.out.print("두부조림 ");
+	}
 
 	@Override
-	public void seaweedSoup() {}
+	public void seaweedSoup() {
+		System.out.print("미역국 ");
+	}
 
 	@Override
 	public void yogurt() {}
 
 	@Override
-	public void banana() {
-		System.out.print("바나나 ");
-		totalCost += BANANA;
-	}
+	public void banana() {}
 
 	@Override
 	public void milk() {}
