@@ -7,6 +7,8 @@ public class Test2Run {
 		// 익명 구현 객체 구현할 메소드를 만들어준다
 		Test2 t22 = new Test2() {
 			int atom = 200;
+			
+			@Override
 			public void abc() { // 익명 구현 객체 안에 익명 구현 메소드 public 필수
 				int temp = atom;
 				System.out.println("이곳은 Test2Run 클래스의 t22 익명 객체 안의 abc() 메소드입니다.");
